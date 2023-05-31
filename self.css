@@ -1,0 +1,101 @@
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens */
+@media screen and (max-width:476px){
+    body{
+        background-color: rgba(247, 241, 241, 0.515);
+    }
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+
+    }
+    /* h2{
+        border: 2px solid rebeccapurple;
+        border-radius: 5px;
+        
+    } */
+    #maindiv{
+        margin-top: 30px;
+    }
+    .circle1 {
+        width: 100px;
+        height: 100px;
+        border:2px solid black;
+        border-radius: 50%;
+        background-color: rgb(240, 240, 26);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    .circle2 {
+        width: 100px;
+        height: 100px;
+        border:2px solid black;
+        border-radius: 50%;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    .circle3 {
+        width: 100px;
+        height: 100px;
+        border:2px solid black;
+        border-radius: 50%;
+        background-color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .text {
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      .profilecircle {
+        width:350px;
+        height: 350px;
+        margin-top: 30px;
+        border: 2px green solid;
+        border-radius: 50%;
+        background-color: #f1f1f1;
+        background-image: url('profile.jpeg');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+      }
+     
+      #label{
+       color: gray;
+       font-size: medium;
+
+      }
+      #text{
+        font-size:large;
+      }
+      a{
+        text-decoration: none;
+        color: black;
+      }
+      #contact{
+        text-decoration: underline;
+      }
+      p{
+        font-style: italic;
+        font-size: medium;
+        color: rgb(0, 0, 0);
+        
+        
+      }
+      
+      
+    
+}

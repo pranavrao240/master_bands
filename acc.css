@@ -1,0 +1,53 @@
+@media screen and (max-width:476px){
+    body{
+        background-color: rgba(247, 241, 241, 0.515);
+    }
+    input{
+        position: relative;
+        left: -4px;
+        width: 455px;
+        height: 30px;
+        background-color: rgba(247, 241, 241, 0.515);
+        border: 1px solid black;
+    }
+    textarea{
+        position: relative;
+        left: -4px;
+        width: 455px;
+        height: 80px;
+        background-color: rgba(247, 241, 241, 0.515);
+        border: 1px solid black;
+    }
+    #box1{
+        height: 100px;
+    }
+    #labels{
+        font-family:'Calibri Light', Courier, monospace;
+        font-size:medium;
+        
+    }
+    .circle4 {
+        width: 100px;
+        height: 100px;
+        border:2px solid black;
+        border-radius: 50%;
+        background-color: rgb(255, 142, 12);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    #rollback{
+        position: relative;
+        left: -210px;
+    }
+    button{
+        background-color: orange;
+        border: none;
+        width: 80px;
+        /* visibility: hidden; */
+
+    }
+    
+
+    
+}
